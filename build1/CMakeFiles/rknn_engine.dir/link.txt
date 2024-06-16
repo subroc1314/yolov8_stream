@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,librknn_engine.so -o librknn_engine.so CMakeFiles/rknn_engine.dir/src/engine/rknn_engine.cpp.o   -L/home/linaro/9.yolov8_stream/mpp_libs  -Wl,-rpath,/home/linaro/9.yolov8_stream/mpp_libs:/home/linaro/9.yolov8_stream/librknn_api/aarch64 ../librknn_api/aarch64/librknnrt.so 

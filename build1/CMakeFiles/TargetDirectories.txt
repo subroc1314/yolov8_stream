@@ -1,0 +1,7 @@
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/rebuild_cache.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/edit_cache.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/yolov8_stream_pool.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/draw_lib.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/yolov8_lib.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/rknn_engine.dir
+/home/linaro/9.yolov8_stream/build1/CMakeFiles/nn_process.dir
