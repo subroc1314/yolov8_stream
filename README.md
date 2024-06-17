@@ -5,7 +5,9 @@
 -----------------------------------------------
   
 板端进入submodules目录并克隆ZLMediaKit和rk mpp代码  
-cd submodules  
+'''
+cd submodules 
+'''
 #ZLMediaKit中3rdpart中链接了别人的仓库，克隆后需要再更新子模块获取  
 git clone https://github.com/ZLMediaKit/ZLMediaKit.git  
 cd ./ZLMediaKit  
