@@ -9,28 +9,42 @@
 cd submodules
 ```
 #ZLMediaKit中3rdpart中链接了别人的仓库，克隆后需要再更新子模块获取  
+```
 git clone https://github.com/ZLMediaKit/ZLMediaKit.git  
 cd ./ZLMediaKit  
 git submodule init  
-git submodule update  
+git submodule update
+```
 #编译ZLMediaKit  
-cmake . -B build && cmake --build build  
+```
+cmake . -B build && cmake --build build
+```
   
 #克隆rk mpp  
-git clone https://github.com/rockchip-linux/mpp.git  
+```
+git clone https://github.com/rockchip-linux/mpp.git
+```
 #编译rk mpp  
+```
 cd ../mpp  
-cmake . -B build && cmake --build build  
+cmake . -B build && cmake --build build
+```
   
 ---------------------------------------------  
   
 #复制编译好的库到mpp_libs目录，在主目录下执行脚本  
-./copy_mpp_libs.sh  
+```
+./copy_mpp_libs.sh
+```
 #编译整体项目代码，在build1(build)目录下  
+```
 cmake ..  
-make  
+make
+```
 #执行项目命令，可更改rtsp流为自己的流地址  
-./build1/yolov8_stream_pool ./weights/yolov8s.float.rknn rtsp://192.168.43.203:8554/live1.sdp 264  
+```
+./build1/yolov8_stream_pool ./weights/yolov8s.float.rknn rtsp://192.168.43.203:8554/live1.sdp 264
+```
   
 ---------------------------------------------  
   
