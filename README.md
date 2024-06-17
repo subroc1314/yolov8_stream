@@ -22,11 +22,12 @@ cmake . -B build && cmake --build build
   
 #克隆rk mpp  
 ```
+cd ..
 git clone https://github.com/rockchip-linux/mpp.git
+cd ./mpp
 ```
 #编译rk mpp  
 ```
-cd ../mpp  
 cmake . -B build && cmake --build build
 ```
   
